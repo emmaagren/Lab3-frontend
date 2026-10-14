@@ -25,10 +25,10 @@
             <h2>Om webbplatsen</h2>
 
             <p>
-                Den här webbplatsen har skapats som en del av laboration 2
+                Den här webbplatsen har skapats som en del av laboration 3
                 i kursen Backend-baserad webbutveckling vid Mittuniversitetet.
                 Syftet är att skapa en fristående frontend som kommunicerar
-                med en REST-baserad webbtjänst.
+                med en REST-baserad webbtjänst och en NoSQL-databas.
             </p>
 
             <h3>Hur webbplatsen fungerar</h3>
@@ -44,9 +44,15 @@
 
             <p>
                 Webbtjänsten är utvecklad med Node.js och Express och 
-                använder SQLite som relationsdatabas. 
+                använder MongoDB Atlas som NoSQL-databas. 
+                Databasen är dokumentbaserad och lagrar information i dokument 
+                istället för tabeller. Mongoose används för att kommunicera 
+                med databasen och hantera datamodellen.
+            </p>
+
+            <p>
                 API:et har stöd för GET, POST, PUT och DELETE. 
-                Det är publicerat på Render och kommunicerar med 
+                Backend är publicerad på Render och kommunicerar med 
                 frontend genom JSON.
             </p>
 
@@ -54,15 +60,18 @@
 
             <p>
                 Under arbetet har jag fått en bättre försåelse för hur 
-                frontend och backend kan kommunicera med varandra genom 
-                ett REST API. Jag har även arbetat med databashantering, 
-                validering och felhantering.
+                frontend och backend kommunicerar genom ett REST API. 
+                Jag har även fått erfarenhet av att arbeta med en 
+                NoSQL-databas och använda Mongoose för att hantera data.
             </p>
 
             <p>
-                En viktig jag lärt mig är hur webbtjänstens driftmiljö påverkar 
-                datalagringen och varför en permanent databaslösning 
-                behövs för en webbplats som ska användas långsiktigt.
+                Genom att återanvända webbplatsen från laboration 2 har 
+                jag kunnat jämföra SQLite och MongoDB. En viktig skillnad 
+                är att SQLite är en relationsdatabas som använder tabeller, 
+                medan MongoDB lagrar information i dokument. 
+                Jag har också lärt mig mer om hur en molnbaserad databas 
+                kan användas tillsammans med en publicerad webbtjänst.
             </p>
         </section>
     </main>
