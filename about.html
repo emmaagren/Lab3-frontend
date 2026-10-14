@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om webbplatsen | Mitt CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mitt CV</h1>
+         <nav aria-label="Huvudmeny">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="add.html">Lägg till erfarenhet</a></li>
+                <li><a href="about.html" aria-current="page">Om webbplatsen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Om webbplatsen</h2>
+
+            <p>
+                Den här webbplatsen har skapats som en del av laboration 2
+                i kursen Backend-baserad webbutveckling vid Mittuniversitetet.
+                Syftet är att skapa en fristående frontend som kommunicerar
+                med en REST-baserad webbtjänst.
+            </p>
+
+            <h3>Hur webbplatsen fungerar</h3>
+
+            <p>
+                Webbplatsen är byggd med HTML, CSS och JavaScript. 
+                Med hjälp av Fetch API hämtas arbetslivserfarenheter från 
+                webbtjänsten och visas på startsidan. 
+                Det går även att lägga till och radera arbetslivserfarenheter.
+            </p>
+
+            <h3>Webbtjänst och databas</h3>
+
+            <p>
+                Webbtjänsten är utvecklad med Node.js och Express och 
+                använder SQLite som relationsdatabas. 
+                API:et har stöd för GET, POST, PUT och DELETE. 
+                Det är publicerat på Render och kommunicerar med 
+                frontend genom JSON.
+            </p>
+
+            <h3>Slutsatser</h3>
+
+            <p>
+                Under arbetet har jag fått en bättre försåelse för hur 
+                frontend och backend kan kommunicera med varandra genom 
+                ett REST API. Jag har även arbetat med databashantering, 
+                validering och felhantering.
+            </p>
+
+            <p>
+                En viktig jag lärt mig är hur webbtjänstens driftmiljö påverkar 
+                datalagringen och varför en permanent databaslösning 
+                behövs för en webbplats som ska användas långsiktigt.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Emma Ågren</p>
+    </footer>
+    
+</body>
+</html>
