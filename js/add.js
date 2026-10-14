@@ -1,6 +1,6 @@
 "use strict";
 
-const apiUrl = "https://lab2-workexperience-api.onrender.com/api/workexperience";
+const apiUrl = "https://lab3-workexperience-api.onrender.com/api/workexperience";
 
 const form = document.querySelector("#experience-form");
 const formMessage = document.querySelector("#form-message");
