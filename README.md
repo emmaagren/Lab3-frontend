@@ -1,13 +1,14 @@
-# Laboratin 2 - Frontend för arbetslivserfarenheter
+# Laboration 23 - Frontend för arbetslivserfarenheter
 
-En webbplats skapad av Emma Ågren som en del av laboration 2 i kursen Backend-baserad webbutveckling vid Mittuniversitetet.
-Webbplatsen är en fristående frontend som kommunicerar med ett RES API för att hantera arbetslivserfarenheter.
+En webbplats skapad av Emma Ågren som en del av laboration 3 i kursen Backend-baserad webbutveckling vid Mittuniversitetet.
+
+Webbplatsen är en fristående frontend som kommunicerar med ett REST API för att hantera arbetslivserfarenheter.
 
 ## Publicerad webbplats
 
 Webbplatsen är publicerad på Netlify:
 
-https://lab2-frontend.netlify.app/
+https://lab3-frontend.netlify.app/
 
 ## Tekniker
 
@@ -30,11 +31,11 @@ Webbplatsen har även felhantering och en responsiv layout.
 
 ## Webbtjänst
 
-Frontend kommunicerar med ett REST API som är utvecklat med Node.js, Express och SQLite.
+Frontend kommunicerar med ett REST API som är utvecklat med Node.js och Express.
 
-API:et är publicerat på Render:
+API:et använder MongoDB Atlas som NoSQL-databas tillsammans med Mongoose och är publicerat på Render:
 
-https://lab2-workexperience-api.onrender.com/api/workexperience
+https://lab3-workexperience-api.onrender.com/api/workexperience
 
 Kommunikation sker med Fetch API och JSON.
 
@@ -46,12 +47,11 @@ Kommunikation sker med Fetch API och JSON.
 
 ## Datalagring
 
-Arbetslivserfarenheterna lagras i en SQLite-databas på backend-servern.
+Arbetslivserfarenheterna lagras i en MongoDB-databas via MongoDB Atlas.
 
-Eftersom API:et körs på Renders kostnadsfria tjänst kan databasinnehållet försvinna när servern startas om eller publiceras på nytt.
+Till skillnad från laboration 2, där SQLite användes, lagras informationen nu i en molnbaserad NoSQL.databas. 
 
 ## Skapad av
 
 Emma Ågren
-student
-MIUN
+Student vid Mittuniversitetet
